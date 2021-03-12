@@ -1,0 +1,39 @@
+.modal{
+    inset: 0px;
+    height: 100%;
+    position: fixed;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.cancel-modal {
+    position: absolute;
+    width: 15px;
+    top: 21px;
+    right: 21px;
+}
+
+.cancel-modal button {
+    cursor: pointer;
+}
+
+
+.modal-size {
+    width: 1003px;
+    height: 503px;
+    background: #ffff;
+    position: relative;
+}
+
+@media only screen and (max-width: 980px) {
+
+    .modal-size {
+        height: 100%;
+        overflow-y: scroll;
+    }
+
+}
+

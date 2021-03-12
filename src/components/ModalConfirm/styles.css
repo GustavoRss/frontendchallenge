@@ -1,0 +1,48 @@
+.modal{
+    inset: 0px;
+    height: 100%;
+    position: fixed;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.cancel-modal {
+    position: absolute;
+    width: 15px;
+    top: 10px;
+    right: 10px;
+}
+
+
+.modal-confirm-size {
+    width: 592px;
+    height: 233px;
+    background: #ffff;
+    position: relative;
+}
+
+.btn-cancel {
+    border: 1px solid #212121;
+    height: 40px;
+    width: 176px;
+    margin-right: 10px;
+}
+
+.btn-delete {
+    background-color: #212121;
+    height: 40px;
+    width: 176px;
+    color: #fff;
+}
+
+.btn-cancel:active {
+    background-color: #5158c4;
+    color: white;
+}
+
+.btn-delete:active {
+    background-color: #5158c4;
+}

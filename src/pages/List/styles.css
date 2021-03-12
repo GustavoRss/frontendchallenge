@@ -1,0 +1,92 @@
+.navbar-navers {
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-navers img {
+    width: 300px;
+}
+
+.navbar-navers a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+}
+
+.list-navers {
+    padding: 0px 50px 0px 50px;
+    position: relative;
+}
+
+.list-navers div {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.list-navers-create {
+    justify-content: space-between !important;
+}
+
+.list-navers .link-create {
+    width: 176px;
+    height: 40px;
+    background: #212121;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.list-navers .title-navers {
+    font-size: 40px;
+}
+
+.card-responsive {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-naver {
+    width: 281px;
+    height: 420px;
+    margin: 10px;
+}
+
+.card-naver .img-naver {
+    height: 300px;
+}
+
+.card-naver img {
+   width: 100%;
+   max-height: 100%;
+}
+
+.name-naver {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.job-naver {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+@media only screen and (max-width: 980px) {
+    .navbar-navers, .list-navers {
+        padding: 50px 20px 50px 20px;
+    }
+    .navbar-navers img {
+        width: 200px;
+    }
+    .list-navers div {
+        flex-direction: column;
+    }
+    .card-naver{
+        margin: unset;
+    }
+}
